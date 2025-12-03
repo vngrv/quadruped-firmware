@@ -53,4 +53,3 @@ def get_config_path(config_name: str) -> Path:
     """
     config_dir = Path(__file__).parent
     return config_dir / f"{config_name}.yaml"
-
