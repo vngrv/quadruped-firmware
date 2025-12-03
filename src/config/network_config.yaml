@@ -1,0 +1,9 @@
+network:
+  pi_ip: "192.168.2.135"
+  pi_port: 5000
+  image_hub_port: 5555
+  socket_timeout: 0.00001
+  start_port_range: 5000
+  end_port_range: 9999
+  buffer_size: 1024
+

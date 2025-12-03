@@ -1,0 +1,26 @@
+robot:
+  legs:
+    upper_length: 10.0
+    lower_length: 10.5
+  servos:
+    channels: 16
+    pulse_min: 500
+    pulse_max: 2500
+  offsets:
+    shoulder: 10
+    elbow: 20
+    hip: 0
+  calibration:
+    FR_SHOULDER: 60
+    FR_ELBOW: 90
+    FR_HIP: 90
+    FL_SHOULDER: 120
+    FL_ELBOW: 90
+    FL_HIP: 90
+    BR_SHOULDER: 60
+    BR_ELBOW: 90
+    BL_SHOULDER: 120
+    BL_ELBOW: 90
+  kinematics:
+    hip_offset: 2.0  # L parameter for hip calculation
+
